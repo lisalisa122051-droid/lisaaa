@@ -1,0 +1,21 @@
+{
+  "name": "wa-bot-aesthetic-baileys",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Aesthetic - Baileys - Node.js",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0",
+    "axios": "^1.7.9",
+    "file-type": "^19.6.0",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
